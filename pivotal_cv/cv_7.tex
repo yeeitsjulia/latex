@@ -1,0 +1,214 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+% \setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{15cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\familyname{\textbf{Lee}}
+\firstname{\textbf{Julia}}
+
+\title{Senior Software Engineer}
+\address{Chicago, Illinois}{}
+\mobile{(312) 369-9163}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{julia.ys.lee@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\makecvtitle
+
+\section{Summary}
+
+% \cvitem{}{As a full-stack developer with a passion for DevOps, I have created web-based applications as well as message-driven microservice applications across multiple programming languages and business sectors. I have 6 years of experience helping teams transform their processes to rapidly deliver software products using Lean and Agile methodologies.}
+
+\cvitem{\textbf{Software excellence}}{Passionate about delivering high-quality software that is well-tested, maintainable, and extensible.}
+\cvitem{\textbf{Agile advocate}}{Excellent understanding of Agile and XP methodologies including TDD, pair programming, continuous integration, fast feedback, and iteration planning.}
+\cvitem{\textbf{DevOps experience}}{Led efforts to develop automated test, build, and deployment capabilities} %across large enterprises.}
+% \cvitem{}{\textbf{Backend}: Java 8, Groovy, Spring framework, Axon framework, Gradle, Maven, ant}
+% \cvitem{}{\textbf{Big data}: Kafka, Pivotal GemFire, AirFlow}
+% \cvitem{}{\textbf{CI / CD}: Concourse CI, GoCD, Jenkins CI}
+% \cvitem{}{\textbf{Cloud}: AWS (EC2, IAM, S3, ECS, CloudWatch, Elasticsearch), Terraform}
+% \cvitem{}{\textbf{Configuration management}: Ansible, Chef}
+% % \cvitem{}{\textbf{Databases}: PostgreSQL, Oracle, MySQL, GreenplumDB}
+% \cvitem{}{\textbf{Databases}: PostgreSQL, GreenplumDB}
+% \cvitem{}{\textbf{Frontend}: React, AngularJS 1.x, HTML5, CSS3, Sass/LESS}
+% \cvitem{}{\textbf{Scripting}: Bash}
+% \cvitem{}{\textbf{Etc}: Docker, Vagrant, Git, Subversion, TICK stack, Pivotal Cloud Foundry, DC/OS}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical Competencies}
+
+\cvitem{}{\textbf{Languages} -- Java, Javascript, Ruby. Currently learning Go and Python.}
+\cvitem{}{\textbf{Frameworks} -- Spring, ReactJS, Node.js.}
+\cvitem{}{\textbf{Cloud/PaaS} -- AWS, vSphere, Cloud Foundry, DC/OS.}
+\cvitem{}{\textbf{CI/Build tools} -- Gradle, npm, Maven, Git, Jenkins CI, Concourse CI.}
+\cvitem{}{\textbf{Configuration/cluster management} -- Ansible, Terraform, Chef, BOSH.}
+\cvitem{}{\textbf{Frontend} -- HTML5, CSS3, Sass.}
+
+%----------------------------------------------------------------------------------------
+%	Career Summary
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+% \renewcommand{\listitemsymbol}{-~}
+
+\cvitem{2016--Current}{\textbf{Senior Software Engineer and Consultant}, \textsc{Pivotal Labs}. Chicago, IL}
+
+% PCF Admin @ HCSC
+\cvitem{}{Infrastructure/Platform Reliability Engineer at Health Insurance Company
+\begin{itemize}
+\item Provided expertise for operational management (related to monitoring, frequent and automated upgrades, scaling, and troubleshooting) of Pivotal Cloud Foundry platform running on vSphere. 
+\item Ideated and implemented various ways to improve community engagement with hundreds of platform users. Developed a subscription-based live status page, a documentation page, and biweekly Lunch {\&} Learns with users.
+\item Led effort to refactor CI pipelines to improve efficiency and reduce duplication.
+% \item Initiated effort to revamp existing monitoring system to minimize noise, monitor and alert on critical metrics, and 
+\item Introduced value and practice of pair programming, knowledge sharing sessions, iterative development, and backlog management.
+\item \underline{Additional Technologies}: Concourse CI, BOSH, vSphere, ELK stack, HashiCorp Vault
+\end{itemize}}
+%  Build balanced customer platform product teams delivering “Platform” as a capability within their organization
+%  Create and implement infrastructure architectures for PCF deployments
+% Establish continuous delivery pipelines for deployment of PCF and related products in a customer’s infrastructure
+% Design and implement CI & CD processes to deliver customer apps to production, fostering a culture of continuous process improvement
+% Provide operational assistance and guidance for PCF including; monitoring, management, disaster recovery, security compliance/auditing, networking, storage, service brokers and build packs
+
+% Discover LIR
+\cvitem{}{Full-stack Developer at Financial Services Company
+\begin{itemize}
+\item Developed new features for a greenfield project for existing bank customers requesting higher credit line.
+\item Implemented instant decisioning engine for MVP; integrated with legacy internal systems to collect necessary data.
+\item Worked closely with product manager to identify and escalate blockers to path to production.
+\item Made architectural changes to simplify overly complex calls to microservices.
+\item \underline{Additional Technologies}: ReactJS with Redux, Node.js with Webpack, RabbitMQ, Spring Cloud libraries
+\end{itemize}}
+
+% Allstate GPS Data
+\cvitem{}{Backend Developer at Auto Insurance Company
+\begin{itemize}
+\item Built out a near real-time data pipeline using Spring Cloud Stream to consume 60 million daily driving trip records from Kafka. Implemented features to perform geospatial and additional analysis at multiple points in the pipeline. 
+% \item Refined configurations on infrastructural components to meet SLA.
+% \item Advocated heavily for -- and implemented -- message-based contract tests to prevent unexpected breaks with downstream/upstream dependencies in the data pipeline.
+% \item Worked extensively on implementing infrastructure changes in AWS using Terraform \& Ansible. Replaced existing complex Bash scripts used to manage VMs with Ansible.
+\item Worked extensively on implementing infrastructure changes in AWS using Terraform, bash, and Ansible.
+% \item Worked extensively on the build pipeline to automate infrastructure changes in AWS using Terraform \& Ansible. Replaced existing complex Bash scripts used to manage VMs with Ansible.
+% \item Analyzed possible points of failure in the data pipeline. Designed and implemented solutions to ensure data reliability and to perform failure recovery of infrastructural components.
+\item Developed a mobile web application that uses data from on-board diagnostic devices to notify drivers of car issues and to monitor driving behavior. Integrated with multiple 3rd-party vendors, optimizing external API calls to minimize network overhead and costs.
+\item \underline{Additional technologies}: Packer, Docker, GreenplumDB, Concourse CI, Pivotal Cloud Foundry, ReactJS with Redux
+\end{itemize}}
+
+% Member API HCSC
+\cvitem{}{Backend Developer at Health Insurance Company
+\begin{itemize}
+\item Developed an internal RESTful API that serves data from millions of PHI records stored in GemFire.
+\item Built a CI pipeline to validate and deploy Spring applications to multiple environments on Pivotal Cloud Foundry.
+\item Implemented rolling deployments for data retrieval and storage functions in GemFire using Ansible to enable zero downtime between application upgrades.
+\item Advocated heavily for integration tests in lieu of end-to-end tests which reduced build time and enabled faster, more transparent debugging. Also introduced consumer-driven contract tests.
+\item Championed improving XP {\&} Agile practices within the team by conducting various sessions on TDD, test pyramid, release management, and continuous integration. Implemented technical retros and team feedback sessions.
+\item \underline{Additional technologies}: Concourse CI, Docker, Spring Cloud libraries
+\end{itemize}}
+
+\cvitem{2013--2016}{\textbf{Software Developer and Consultant}, \textsc{ThoughtWorks, Inc}. Chicago, IL}
+
+% P&G
+\cvitem{}{DevOps at Supply Chain Management Company
+\begin{itemize}
+\item Provisioned virtual servers for Dev, QA, and staging environments using automation tools.
+\item \underline{Technologies}: DC/OS, Ansible, Docker, PostgreSQL, Kafka
+\end{itemize}}
+
+% Hudson's Bay Company
+\cvitem{}{DevOps Engineer at Multinational Clothing Retailer
+\begin{itemize}
+\item Assessed existing implementation for over 500 build \& deploy pipelines in GoCD to identify and prioritize areas of improvement. Spent 6 weeks optimizing pipeline and CI server configurations, following best practices for continuous delivery.
+\item Conducted a value stream map for development and made strategic suggestions on improving the path to production.
+% \item After discussing inefficiencies in the existing approach with technical managers, I spent 6 weeks optimizing the pipelines, following best practices for continuous delivery. Re-configured their CI servers and debugged ongoing issues with build pipelines that had been blocking deployment of a core component of the application.
+\end{itemize}}
+
+% Moody's
+\cvitem{}{DevOps Engineer at Financial Analytics Company
+\begin{itemize}
+\item Created a build pipeline in Jenkins to quickly and reliably deploy a customized stress testing product to an environment dedicated to each product user. This work was intended to replace a complicated, time-consuming manual installation process.
+\item \underline{Technologies}: Powershell, Jenkins CI
+\end{itemize}}
+
+% Barclay's
+\cvitem{}{Java Developer at Major Financial Institution
+\begin{itemize}
+\item Worked on developing a new backend system to re-platform the existing bank and launch a new product in the US market. Developed business functionality for the payment system. Integrated with existing 3rd party vendors.
+\item Spearheaded initial deployment of the new platform to staging environments. Evolved deployment configurations in Chef scripts.Debugged infrastructure \& environment issues.
+\item Ran a presentation on Docker for client developers.
+\item \underline{Additional Technologies}: Axon, Spring Boot, Groovy, GoCD, Maven, Oracle, ActiveMQ
+\end{itemize}}
+
+% Sankofa
+\cvitem{}{Ruby on Rails and Frontend Developer at Social Justice Organization
+\begin{itemize}
+\item Integrated website with social media platforms (Twitter, Facebook, Instagram) to help establish a stronger digital presence.
+\item Implemented responsive design using CSS media queries.
+\item \underline{Technologies}: Ruby on Rails, RSpec {\&} Capybara, RefineryCMS, MasonryJS, Sass, PostgreSQL
+\end{itemize}}
+
+% Draeger
+% \cvitem{}{\texttt{C\#} Developer for Medical Equipment Manufacturer:
+% \begin{itemize}
+% \item Built a template for an automated testing framework for various patient monitoring devices that interact with each other. This laid the groundwork for a BDD-style automated test suite that would replace existing manual tests.
+% \item Technologies: \texttt{C\#}, SpecFlow, NUnit, Bamboo CI
+% \end{itemize}}
+
+\cvitem{}{Java Developer at International Diabetes Center
+\begin{itemize}
+\item Developed new features for an application that produces a graphical report using data from glucose monitoring devices to be used by physicians to evaluate the patient's blood glucose. This application was front-end-heavy due to its customizable and interactive nature.
+\item \underline{Technologies}: Groovy, Spring MVC, AngularJS, Maven, Selenium, Liquibase, PostgreSQL, Jenkins CI
+\end{itemize}}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Education}}
+
+\cventry{\textbf{2008--2012}}{Bachelor of Engineering}{Electrical Engineering}{Ryerson University}{Toronto, Ontario}{}
+% {\textit{\textbf{CGPA} -- 8.99.}}  % Arguments not required can be left empty
+
+\end{document}

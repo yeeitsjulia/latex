@@ -1,0 +1,57 @@
+\documentclass[10pt,stdletter]{newlfm}
+\usepackage{charter}
+
+\widowpenalty=1000
+\clubpenalty=1000
+
+\newsavebox{\Luiuc}
+\sbox{\Luiuc}{%
+	\parbox[b]{5in}{%
+		\vspace{0.5in}%
+		\includegraphics[scale=0.3]
+		{small.png}%
+	}%
+}%
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{headermarginskip=10pt}
+\newlfmP{sigsize=20pt}
+% \newlfmP{addrfromphone}
+\newlfmP{addrfromemail}
+% \PhrPhone{Phone}
+\newlfmP{dateskipafter=40pt}
+% \PhrEmail{Email}
+
+\lthUiuc
+
+\namefrom{Casey Noblett}
+\addrfrom{%
+	Casey Noblett, Director\\
+	Commercial Dance Intensive\\
+	4108 Enfield Ridge Dr. \\
+	Cary, NC. 27519 \\
+	URL: commercialdanceintensive.com
+}
+% \phonefrom{999-999-999}
+\emailfrom{cdiauditions@gmail.com}
+
+\addrto{}
+
+\greetto{To Whom It May Concern,}
+\closeline{Sincerely,}
+\begin{document}
+\begin{newlfm}
+
+This letter is in reference to the amazing individual and artist, Sho-Tyme. I am the director of the Commercial Dance Intensive and we host big dance events all over the USA. We are so lucky to have him teach our dancers, as he does so with professionalism, motivation, and kindness.
+
+It is rare to have someone so accomplished - a dancer, choreographer, and director - be able to translate his art and connect with dancers the way he does. His classes are intense but his positive attitude is infectious.
+
+We \textit{always} ask him to freestyle for us, as it is truly like nothing we have ever experienced. His musicality, talent, imagination, and connection to the instruments is unparalleled. We are currently piloting a new program with him to help dancers better understand how to be within the music, rather than dancing to it.
+
+Sho-Tyme is very well known and respected in the dance community and his weekly classes are always sought out by dancers from all over the world coming to Los Angeles to train in hip hop dance. Even with his busy schedule, we are so fortunate to be able to have him work with us when available!
+
+He is truly something special.
+
+\end{newlfm}
+\end{document}
+
